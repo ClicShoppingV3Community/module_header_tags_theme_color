@@ -1,0 +1,2 @@
+module_header_tags_theme_color_title = Theme color for Chrome and mobile
+module_header_tags_theme_color_description = Theme color for Chrome and mobile
