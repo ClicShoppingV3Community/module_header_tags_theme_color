@@ -22,4 +22,4 @@ Implementation:
 - Install the module
 - Activate the module
 
-![image](https://github.com/ClicShoppingCommunityModulesV3/module_header_tags_theme_color/blob/master/ModuleInfosJson/image.png)
+![image](https://github.com/ClicShoppingV3Community/module_header_tags_theme_color/blob/master/ModuleInfosJson/image.png)
