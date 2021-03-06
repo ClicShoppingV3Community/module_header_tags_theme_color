@@ -15,8 +15,8 @@
 
   class ht_theme_color
   {
-    public $code;
-    public $group;
+    public string $code;
+    public string $group;
     public string $title;
     public string $description;
     public ?int $sort_order = 0;
@@ -29,7 +29,7 @@
       $this->title = CLICSHOPPING::getDef('module_header_tags_theme_color_title');
       $this->description = CLICSHOPPING::getDef('module_header_tags_theme_color_description');
 
-      if (defined('MODULE_HEADER_TAGS_THEME_COLOR_STATUS')) {
+      if (\defined('MODULE_HEADER_TAGS_THEME_COLOR_STATUS')) {
         $this->sort_order = MODULE_HEADER_TAGS_THEME_COLOR_SORT_ORDER;
         $this->enabled = (MODULE_HEADER_TAGS_THEME_COLOR_STATUS == 'True');
       }
@@ -50,7 +50,7 @@
 
     public function check()
     {
-      return defined('MODULE_HEADER_TAGS_THEME_COLOR_STATUS');
+      return \defined('MODULE_HEADER_TAGS_THEME_COLOR_STATUS');
     }
 
     public function install()
